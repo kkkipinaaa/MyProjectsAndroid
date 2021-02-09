@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="wrap_content"
+              android:layout_width="match_parent"
+              android:orientation="vertical">
+
+    <TextView
+            android:id="@+id/textview_res"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:padding="16dp"
+            android:textAlignment="viewEnd"/> <!-- расположение текста-->
+
+    <TextView
+            android:id="@+id/textview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:padding="16dp"
+            android:maxLines="1"
+            android:text="0"
+            android:textAlignment="viewEnd"/> <!-- расположение текста-->
+
+    <GridLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:columnCount="4"
+            android:orientation="horizontal">
+
+        <Button
+                android:id="@+id/button_7"
+                android:textSize="40sp"
+                android:text="7"/>
+
+        <Button
+                android:id="@+id/button_8"
+                android:textSize="40sp"
+                android:text="8"/>
+
+        <Button
+                android:id="@+id/button_9"
+                android:textSize="40sp"
+                android:text="9"/>
+
+        <Button
+                android:id="@+id/button_div"
+                android:textSize="40sp"
+                android:text="/"/>
+
+        <Button
+                android:id="@+id/button_4"
+                android:textSize="40sp"
+                android:text="4"/>
+
+        <Button
+                android:id="@+id/button_5"
+                android:textSize="40sp"
+                android:text="5"/>
+
+        <Button
+                android:id="@+id/button_6"
+                android:textSize="40sp"
+                android:text="6"/>
+
+        <Button
+                android:id="@+id/button_mult"
+                android:textSize="40sp"
+                android:text="*"/>
+
+        <Button
+                android:id="@+id/button_1"
+                android:textSize="40sp"
+                android:text="1"/>
+
+        <Button
+                android:id="@+id/button_2"
+                android:textSize="40sp"
+                android:text="2"/>
+
+        <Button
+                android:id="@+id/button_3"
+                android:textSize="40sp"
+                android:text="3"/>
+
+        <Button
+                android:id="@+id/button_sub"
+                android:textSize="40sp"
+                android:text="-"/>
+
+        <Button
+                android:id="@+id/button_0"
+                android:textSize="40sp"
+                android:text="0"/>
+
+        <Button
+                android:id="@+id/button_toc"
+                android:textSize="40sp"
+                android:text="."/>
+
+        <Button
+                android:id="@+id/button_rez"
+                android:textSize="40sp"
+                android:text="="/>
+
+        <Button
+                android:id="@+id/button_plus"
+                android:textSize="40sp"
+                android:text="+"/>
+
+    </GridLayout>
+</LinearLayout>
